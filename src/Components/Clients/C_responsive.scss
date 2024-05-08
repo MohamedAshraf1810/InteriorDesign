@@ -1,0 +1,28 @@
+@import "../../Helpers/mediaQueries";
+
+@include Custom {
+  .clients-section {
+    .clients-Header-Description {
+      .clientsDescription {
+        width: 100%;
+      }
+      .clientsHeader {
+        font-size: 25px;
+      }
+    }
+    .Collaporation {
+      height: auto;
+      padding: 25px;
+      .companyDetails {
+        width: 100%;
+        left: 0;
+        .detailsDescription{
+            font-size: 18px
+        }
+        .detailsHeader{
+            font-size: 25px;
+        }
+    }
+    }
+  }
+}

@@ -1,0 +1,28 @@
+// HC stands for Home carousel
+
+@import "../../Helpers/mediaQueries";
+
+@include Custom {
+  .custom-carousel {
+    .carousel-inner {
+      .carousel-item {
+        .sliderImage {
+          width: auto !important;
+          height: 400px;
+        }
+        .sliderCaptionSquare {
+          width: 70%;
+          text-align: center;
+          padding: 30px 35px;
+          .sliderCaption {
+            font-size: 13px;
+            line-height: normal;
+          }
+          .sliderMoreButton{
+            font-size: 11px;
+          }
+        }
+      }
+    }
+  }
+}

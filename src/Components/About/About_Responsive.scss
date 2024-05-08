@@ -1,0 +1,66 @@
+@import "../../Helpers/mediaQueries";
+
+@include Custom {
+  .leadGenInterior-design {
+    .leadGenContainer {
+      display: block;
+      
+      .leadGenInteriorDesignService {
+        width: 100%;
+        text-align: center;
+
+        .InteriorDesignServiceHeader {
+          width: 100%;
+          font-size: 22px;
+        }
+        .exploreServiceBTN {
+          margin: auto;
+          margin-bottom: 10%;
+        }
+      }
+      .leadGenInteriorDesignServiceLogo {
+        width: 100%;
+      }
+    }
+  }
+  .Interior-designer {
+    display: block;
+    height: 100%;
+    .graphic-designerCapabilities {
+      width: 100%;
+      .graphicDesignerHeader-Details {
+        text-align: center;
+        .Interior-designerHeader {
+          font-size: 22px;
+          width: 100%;
+        }
+        .Interior-designerDetails {
+          font-size: 15px;
+          width: 100%;
+        }
+      }
+
+      .designerDetailsFollow {
+        height: 100%;
+        display: block;
+        .designerCapability {
+          width: 100%;
+          .designerCapabilityHeader {
+            display: block;
+            margin-bottom: 3px;
+            .designerCapabilityTitle {
+              font-size: 16px;
+              margin-top: 5%;
+
+            }
+          }
+        }
+      }
+    }
+
+    .Interior-designerBackg{
+        width: 100%;
+        height: 400px;
+    }
+  }
+}

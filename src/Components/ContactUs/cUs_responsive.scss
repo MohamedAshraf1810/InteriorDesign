@@ -1,0 +1,31 @@
+@import "../../Helpers/mediaQueries";
+
+@include Custom {
+  .Contactus {
+    .contactWays {
+      display: block;
+      .contactWay {
+        width: 100%;
+        margin-bottom: 20px;
+      }
+    }
+    .contactFormDV {
+      .contactForm-Container {
+        width: 100%;
+        .contactForm {
+          display: block;
+          height: fit-content;
+          .contactFormPart1 ,.contactFormPart2  {
+              width: 100%;
+              .FormInput {
+                margin-bottom: 15px;
+              }
+              .MessageTextArea{
+                margin-bottom: 20px;
+              }
+          }
+        }
+      }
+    }
+  }
+}

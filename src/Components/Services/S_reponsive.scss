@@ -1,0 +1,26 @@
+@import "../../Helpers/mediaQueries";
+
+@include Custom {
+  .servicesSection {
+    .servicesHeader {
+      .servicesDescription {
+        width: 80%;
+      }
+    }
+    .serviceDesigns {
+      display: block;
+      width: 90%;
+      .design {
+        width: 100%;
+      }
+    }
+  }
+  .getInteriorDesigner {
+    display: block;
+    text-align: center;
+    .getInteriorDesignQuestion {
+      font-size: 17px;
+      margin-bottom: 5%;
+    }
+  }
+}

@@ -1,0 +1,40 @@
+@import "variables";
+
+.CustomModal {
+  .modal-content {
+    background-color: #272727;
+    border: 3px solid $primary-gold-color;
+    color: white;
+  }
+  .ModalHeader {
+    border-bottom: 1px solid $primary-gold-color;
+    .ModalTitle {
+      font-weight: Bold;
+      margin: auto;
+      color: $primary-gold-color;
+    }
+  }
+
+  .ModalBody {
+    text-align: right;
+    width: 100%;
+    .ModalParagraph,
+    .ModalHeader {
+      text-align: left;
+    }
+    .Owner {
+        font-size: 14px;
+    }
+  }
+
+  .modal-footer {
+    width: 100%;
+    justify-content: center;
+    border-top: 1px solid $primary-gold-color;
+    .CloseButton {
+      background-color: $primary-gold-color;
+      border: none;
+      font-weight: bold;
+    }
+  }
+}

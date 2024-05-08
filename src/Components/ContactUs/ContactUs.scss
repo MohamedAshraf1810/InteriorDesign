@@ -1,0 +1,97 @@
+@import "variables";
+
+.Contactus {
+  width: 100%;
+  background-color: #272727;
+  color: white;
+  padding-bottom: 5%;
+  .contactus-Header {
+    text-align: center;
+    padding: 5% 0% 3% 0%;
+
+    .C_Header {
+      font-weight: 300;
+      color: $primary-gold-color;
+    }
+  }
+
+  .contactWays {
+    display: flex;
+    justify-content: space-around;
+    .contactWay {
+      width: 15%;
+      text-align: center;
+
+      .contactWay-Icon {
+        margin-bottom: 15px;
+      }
+
+      .contactWay-Info {
+        font-size: 14px;
+        color: #707070;
+        font-family: Open_sans;
+      }
+    }
+  }
+
+  .contactFormDV {
+    margin-top: 5%; 
+
+    .contactForm-Container {
+      width: 90%;
+      margin: auto;
+
+      .contactForm {
+        margin: auto;
+        width: 90%;
+        height: 180px;
+        display: flex;
+        justify-content: space-between;
+
+        .contactFormPart1 {
+          display: flex;
+          justify-content: space-between;
+          flex-direction: column;
+          height: 100%;
+        }
+        .contactFormPart1,
+        .contactFormPart2 {
+          width: 49%;
+
+          .FormInput {
+            width: 100%;
+            padding: 12px 20px;
+            font-size: 14px;
+            
+          }
+          .MessageTextArea {
+            resize: none;
+            width: 100%;
+            padding: 12px 20px;
+          }
+          &.formTextAreaContainer {
+            display: flex;
+            justify-content: space-between;
+            flex-direction: column;
+            font-size: 14px;
+
+            .sendMessageBTN {
+              font-size: 12px;
+              padding: 8px 20px !important;
+              line-height: 18px;
+              width: fit-content;
+              background-color: $primary-gold-color;
+              color: white;
+              border: none;
+              font-weight: 600;
+              border-radius: 4px;
+              font-family: Montserrat_CF;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@import './cUs_responsive.scss';

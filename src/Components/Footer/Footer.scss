@@ -1,0 +1,44 @@
+@import "variables";
+
+.footer {
+  width: 100%;
+  height: 200px;
+  background-color: #1f1f1f;
+
+  .footerContainer {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .BrandLogo {
+      width: 30%;
+    }
+
+    .BrandCopyRights {
+      width: 30%;
+      .copyRight {
+        font-family: Open_sans;
+        -webkit-font-smoothing: antialiased;
+        font-size: 13px;
+        color: #707070;
+        letter-spacing: 0.01em;
+        margin-bottom: 0;
+      }
+    }
+    .BrandSocialMedia {
+      width: 20%;
+      display: flex;
+      justify-content: space-between;
+      height: 100%;
+      align-items: center;
+      .socialMediaIcons {
+        width: 20px;
+        height: 20px;
+        color: $primary-gold-color;
+      }
+    }
+  }
+}
+
+@import './F_responsive.scss'

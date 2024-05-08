@@ -1,0 +1,78 @@
+@import "variables";
+
+.clients-section {
+  width: 100%;
+  background: #272727;
+  .clients-Header-Description {
+    padding: 5%;
+    text-align: center;
+    .clientsHeader {
+      font-weight: 300;
+      letter-spacing: 1px;
+      font-size: 35px;
+      color: $primary-gold-color;
+    }
+
+    .clientsDescription {
+      width: 50%;
+      margin: auto;
+      font-size: 14px;
+      font-family: Open_sans;
+      color: #707070;
+
+    }
+  }
+
+  .parteners {
+    width: 80%;
+    margin: auto;
+    padding: 2%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 5%;
+    .partenersLogo {
+      width: 20%;
+    }
+  }
+
+  .Collaporation {
+    width: 100%;
+    height: 590px;
+    background: linear-gradient(rgba(22, 22, 22, 0), rgba(22, 22, 22, 0)),
+      url("../../static/Images/clients/hero-bg4.jpg") no-repeat center/cover;
+
+    .companyDetails {
+      width: 40%;
+      position: relative;
+      top: 30%;
+      left: 11%;
+
+      .detailsHeader {
+        font-size: 45px;
+        font-weight: 500;
+      }
+      .detailsDescription {
+        font-family: Open_sans;
+        font-weight: 100;
+        font-size: 24px;
+      }
+
+      .collaporationBTN {
+        font-size: 14px;
+        padding: 12px 30px;
+        border-radius: 30px;
+        border: none;
+        font-weight: 600;
+        color: white;
+        background-color: #282828;
+        img{
+            margin-left: 10px;
+        }
+      }
+    }
+  }
+}
+
+
+@import './C_responsive.scss'

@@ -1,0 +1,86 @@
+@import "variables";
+
+.servicesSection {
+  background-color: #1f1f1f;
+  width: 100%;
+  padding-bottom: 8%;
+  .servicesHeader {
+    width: 100%;
+
+    text-align: center;
+    padding: 1px;
+    .servicesTitle {
+      margin-top: 3%;
+      margin-bottom: 3%;
+      font-weight: 300;
+      color: $primary-gold-color;
+    }
+    .servicesDescription {
+      width: 60%;
+      margin: auto;
+      font-size: 14px;
+      margin-bottom: 5%;
+      color: #707070;
+    }
+  }
+  .serviceDesigns {
+    width: 80%;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+
+    .design {
+      width: 270px;
+      background: rgba(0, 0, 0, 0.45);
+      text-align: center;
+
+      .designDescriptionContainer {
+        color: white;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        .designDescription {
+          display: block;
+          text-decoration: none;
+          font-weight: 500;
+          color: white;
+          font-size: 13px;
+        }
+        .designSubDescription {
+          font-size: 10px;
+          color: #707070;
+        }
+      }
+    }
+  }
+}
+
+.getInteriorDesigner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #0e0e0e;
+  width: 100%;
+  padding: 3%;
+
+  .getInteriorDesignQuestion {
+    font-size: 24px;
+    font-weight: 500;
+    color: white;
+    margin-right: 3%;
+  }
+  .getQuotationBtn {
+    font-size: 14px;
+    font-weight: 600;
+    background: $primary-gold-color;
+    color: white;
+    padding: 12px 30px !important;
+    line-height: 18px;
+    border-radius: 30px;
+    border: none;
+    .whiteArrow {
+      margin-left: 10px;
+    }
+  }
+}
+
+@import "./S_reponsive.scss";

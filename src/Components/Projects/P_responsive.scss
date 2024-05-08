@@ -1,0 +1,44 @@
+@import "../../Helpers/mediaQueries";
+
+@include Custom {
+  .projects-section{
+    .projectsTitle-Description{
+        .projectsTitle{
+            font-size: 25px;
+            margin-bottom: 8%;
+        }
+        .projectsDescription{
+            width: 100%;
+            font-size: 14px;
+            margin-bottom: 6%;
+        }
+    }
+    .projectsImages{
+        display: block;
+        .projectIMG{
+            width: 90%;
+            margin: auto;
+            margin-bottom: 10px;
+        }
+    }
+
+    .statisticsCounter{
+        display: block;
+    }
+
+
+    .homeDesign{
+        .BlogExplore{
+            width: 100%;
+            left: 0;
+            padding: 8%;
+            .BlogExploreHeader{
+                font-size: 27px;
+            }
+            .BlogExploreSubHeader{
+                font-size: 18px;
+            }
+        }
+    }
+  }
+}

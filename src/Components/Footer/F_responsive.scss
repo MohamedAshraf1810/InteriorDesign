@@ -1,0 +1,28 @@
+@import "../../Helpers/mediaQueries";
+
+@include Custom {
+  .footer {
+    .footerContainer {
+    display: block;
+    text-align: center;
+    padding-top: 20px;
+      .BrandLogo {
+        width: 100%;
+        height: fit-content;
+      }
+
+      .BrandCopyRights {
+        width: 100%;
+        margin-top: 20px;
+    }
+    
+    .BrandSocialMedia {
+        width: 50%;
+        margin: auto;
+        margin-top: 20px;
+        height: fit-content;
+
+      }
+    }
+  }
+}

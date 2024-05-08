@@ -1,0 +1,46 @@
+@import "variables";
+
+.header {
+  .navbar {
+    width: 100%;
+    min-height: 50px;
+    background-color: #272727;
+    .container-fluid {
+      width: 80%;
+
+      .navbar-toggler{
+        background-color: $primary-gold-color;
+      }
+      .navbar-collapse {
+        flex-grow: 0;
+        .navbar-nav {
+          .nav-item {
+            margin: 13px 20px;
+            &::before {
+              content: "*";
+              position: absolute;
+              margin-top: 5px;
+              margin-left: -10px;
+              color: $primary-gold-color;
+            }
+            .nav-link {
+              color: $primary-gold-color;
+              font-size: 12px;
+              font-family: Montserrat_CF;
+              font-weight: 500;
+              &:hover {
+                opacity: 0.5;
+              }
+              &.active {
+                color: gray;
+                opacity: 0.8;
+                border-bottom: 1px solid $primary-gold-color;
+                padding-bottom: 2px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
